@@ -3,7 +3,7 @@ import { Header, CloseButton, Input } from '../Modal'
 import { IoCloseSharp } from 'react-icons/io5'
 import { ModalContext } from '../../context/ModalContext'
 import { PlaygroundContext } from '../../context/PlaygroundContext'
-
+import LandingPage from '../../pages/Landing'
 const EditFolder = () => {
   const { closeModal, isOpenModal } = useContext(ModalContext);
   const { editFolderTitle, folders } = useContext(PlaygroundContext);

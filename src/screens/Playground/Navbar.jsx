@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png'
 import { useNavigate } from 'react-router-dom'
 const NavbarContainer = styled.div`
   height: ${({isFullScreen}) => isFullScreen ? '0' : '4.5rem'};
-  background: #1e1e1e;
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +27,7 @@ const Logo = styled.img`
 const MainHeading = styled.h1`
   font-size: 2rem;
   font-weight: 400;
-  color: #fff;
+  color: #0f1724;
 
   span{
     font-weight: 700;

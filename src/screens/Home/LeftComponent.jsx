@@ -9,7 +9,7 @@ const StyledLeftComponent = styled.div`
     left: 0;
     width: 40%;
     height: 100vh;
-    background-color: #1e1e1e;
+    background-color: #f7f9fb;
 
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@ const Logo = styled.img`
 const MainHeading = styled.h1`
     font-size: 2.5rem;
     font-weight: 400;
-    color: #fff;
+    color: #0f1724;
     margin-bottom: 0.75rem;
 
     span{
@@ -41,8 +41,8 @@ const MainHeading = styled.h1`
 `
 const SubHeading = styled.div`
     font-size: 1.5rem;
-    color: #fff;
-    opacity: 0.7;
+    color: #334155;
+    opacity: 0.9;
     margin-bottom: 1.5rem;
 `
 
@@ -51,11 +51,13 @@ const AddNewButton = styled.button`
     font-size: 1rem;
     border: none;
     border-radius: 30px;
-    box-shadow: 0px 0px 4px 2px #8b8b8b;
+    box-shadow: 0px 6px 18px rgba(15,23,36,0.06);
     display: flex;
     align-items: center;
     gap: 0.25rem;
     transition: all 0.2s ease-in-out;
+    background: #0077cc;
+    color: #fff;
     span{
         font-size: 2rem;
         font-weight: 700;
@@ -63,8 +65,8 @@ const AddNewButton = styled.button`
 
     &:hover{
         cursor: pointer;
-        scale: 1.05;
-        box-shadow: 0px 0px 6px 2px #8b8b8b;
+        transform: scale(1.05);
+        box-shadow: 0px 8px 22px rgba(15,23,36,0.08);
     }
 `
 const LeftComponent = () => {
