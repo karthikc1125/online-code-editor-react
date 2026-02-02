@@ -19,7 +19,7 @@ export default function LandingPage() {
         transition={{ duration: 0.8 }}
       >
         <h1>
-          Online Code Editor
+          Codehere
           <span>Build. Run. Share.</span>
         </h1>
 
